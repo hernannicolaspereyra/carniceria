@@ -56,5 +56,107 @@
             }
             
         }
+        .productos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+            gap: 2rem;
+            .productos-titulo{
+                h2{
+                    
+                }
+            }
+            .productos-tarjetas{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                width: 100%;
+                padding: 0 30px;
+                color: white;
+                font-size: 2.6rem;
+                font-family: 'Arizonia', cursive;
+                .tarjeta{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 300px;
+                }
+                .tarjeta:nth-child(1){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/combos-img.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(2){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/carne-de-ternera-img.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(3){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/pollo-img.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(4){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/cerdo-img.avif");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(5){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/embutidos-img.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(6){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/achuras-img.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(7){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/productos-congelados-img.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(8){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/huevos-img.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .tarjeta:nth-child(9){
+                    background-image: 
+                        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                        url("../img/otros-productos-img.avif");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
     }
 }
