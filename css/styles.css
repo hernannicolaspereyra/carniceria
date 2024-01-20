@@ -111,21 +111,35 @@
         background-size: cover; }
 
 .index footer {
-  background-color: #aa0000;
-  color: #b5b5b5; }
+  background-color: rgba(71, 71, 71, 0.742);
+  color: white; }
   .index footer .footer .footer-logo {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding: 10px 0; }
     .index footer .footer .footer-logo img {
       width: 10rem;
       height: 10rem; }
   .index footer .footer img {
     width: 40px; }
   .index footer .footer .footer-horarios {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     padding: 10px 20px; }
+    .index footer .footer .footer-horarios div {
+      display: flex;
+      gap: 1rem;
+      align-items: center; }
     .index footer .footer .footer-horarios .maps {
-      grid-column: 1/ -1; }
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .index footer .footer .footer-contacto {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 10px 20px; }
+  .index footer .footer .copyright {
+    background-color: red; }

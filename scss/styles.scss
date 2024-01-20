@@ -161,13 +161,14 @@
         }
     }
     footer{
-        background-color: rgb(170, 0, 0);
-        color: rgb(181, 181, 181);
+        background-color: rgba(71, 71, 71, 0.742);
+        color: white;
         .footer{
             .footer-logo{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                padding: 10px 0;
                 img{
                     width: 10rem;
                     height: 10rem;
@@ -177,13 +178,29 @@
                 width: 40px;
             }
             .footer-horarios{
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                display: flex;
+                flex-direction: column;
                 gap: 1rem;
                 padding: 10px 20px;
-                .maps{
-                    grid-column: 1/ -1;
+                div{
+                    display: flex;
+                    gap: 1rem;
+                    align-items: center;
                 }
+                .maps{
+                    display: flex;
+                    justify-content: center;
+                    align-items:  center;
+                }
+            }
+            .footer-contacto{
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                padding: 10px 20px;
+            }
+            .copyright{
+                background-color: red;
             }
         }
     }
